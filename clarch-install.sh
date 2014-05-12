@@ -4,6 +4,27 @@
 #
 # installation and configuration script for Arch Linux laptop using i3 window tiling manager
 #
+# List of core applications to install
+# X server: xorg-server-utils, xorg-server, xorg-xinit, xorg-xrdb, xorg-xrandr
+# Nvidea graphics drivers: xf86-video-nouveau
+# Audio drivers: ALSA mixer is already shipped with the kernal! alsa-utils, alsa-plugins
+# Touchpad drivers: xf86-input-synaptics
+# Microphone drivers: 
+# i3: i3-wm, i3status, i3lock
+#
+# List of basic utility/productivity applications to install
+# sudo
+# ssh client: openssh
+# xclip
+# web browser: chromium
+# version control: git
+# file manager: ranger
+# text editor: vim
+# text editor (GUI): gedit
+# terminal emulator: rxvt-unicode
+# music player: cmus
+# video player: vlc
+# pdf reader: evince
 
 # declare variables
 NAME="Clive Gross"
@@ -19,7 +40,8 @@ xorg-xrdb
 xorg-xrandr
 i3-wm
 i3status
-i3lock]
+i3lock
+xf86-input-synaptics]
 
 # Base applications
 # modify this list to include the desired applications
@@ -35,6 +57,24 @@ rxvt-unicode
 cmus
 vlc
 evince]
+
+# Programming
+# Lookout, some of these apps are in the AUR repo, need to separate this array into packages from AUR and offical]
+DEVAPPS=[intel-mkl
+gcc-fortran
+python2-setuptools
+python2-pip
+python2-virtualenv
+python2-virtualenvwrapper
+python2-numpy
+python2-pandas
+python2-matplotlib
+python2-django
+ipython2
+r-mkl
+r]
+
+
 
 # loop through each application and install via pacman
 echo Installing core applications...
@@ -58,11 +98,22 @@ do
   pacman -S $APP
 done
 
-read -p "Basic applications installed. Check the output to ensure each was successful then press any key to proceed..."
+echo Installing development applications...
+for APP in $DEVAPPS
+do
+  echo -----------------------------
+  echo Installing $APP
+  echo -----------------------------
+  pacman -S $APP
+done
+read -p "Dev applications installed. Check the output to ensure each was successful then press any key to proceed..."
 
 echo Configuring applications...
 
 # configure sudo
+echo -----------------------------
+echo Configuring sudo
+echo ----------------------------
 echo About to visudo, add:
 echo [USER_NAME]   ALL=(ALL) ALL
 echo under User privalege specification
@@ -71,7 +122,18 @@ read -p "Press any keep to enter visudo..."
 visudo
 
 # run as root until here, then need to change user
-echo Changing user to 
+echo Changing user to $USERNAME...
+# CHANGE...
+
+# configuring sound
+echo -----------------------------
+echo Configuring audio and micorphone
+echo -----------------------------
+echo About to enter alsamixer, press 'm' to unmute Master and mic
+# need to wait for users input to continue
+read -p "Press any keep to enter alsamixer..."
+alsamixer
+
 # configure ssh
 echo -----------------------------
 echo Configuring ssh
@@ -89,11 +151,21 @@ echo -----------------------------
 git config --global user.name $NAME
 git config --global user.email $EMAIL
 git config --global color.ui true
-# last step is to go to githu.com, log in and add new ssh key
-# xclip -sel clip < ~/.ssh/id_rsa.pub
+echo At this stage, you will need to add your new key to your GitHub account manually.
+echo # last step is to go to githu.com, log in and add new ssh key
+echo running "xclip -sel clip < ~/.ssh/id_rsa.pub" will copy the key so you can paste as a new GitHub key on the website.
+xclip -sel clip < ~/.ssh/id_rsa.pub
+echo The command has just been executed, you should be able to paste the key now :)
+
+# configure Chromium 
+echo -----------------------------
+echo Configuring Chromium 
+echo -----------------------------
+echo At this stage, you will need to install a flash player plugin manually. Go open-source, Adobe is for chumps!
+echo A previous install made use of Soundararajans post:
+echo http://dhakshinamoorthy.wordpress.com/2014/02/26/arch-linux-installing-chromium-flash-plugin-in-a-flash/ 
 
 # Need to update each of these config files
-# 
 echo Copying application config files into correct locations...
 cp -v ./.bashrc ~/.bashrc
 cp -v ./.xinitrc ~/.xinitrc

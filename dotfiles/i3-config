@@ -27,7 +27,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start chromium
-bindysm $mod+c exec chromium
+bindysm $mod+c exec chromium --enable-plugins
 
 # kill focused window
 bindsym $mod+Shift+q kill
