@@ -43,6 +43,9 @@ i3status
 i3lock
 xf86-input-synaptics]
 
+# core applications in the Arch User Repository
+COREAPPSAUR=[]
+
 # Base applications
 # modify this list to include the desired applications
 APPS=[sudo
@@ -58,9 +61,13 @@ cmus
 vlc
 evince]
 
+# base applications in the Arch User Repository
+APPSAUR=[librecad]
+
 # Programming
 # Lookout, some of these apps are in the AUR repo, need to separate this array into packages from AUR and offical]
 DEVAPPS=[intel-mkl
+base-devel
 gcc-fortran
 python2-setuptools
 python2-pip
@@ -73,8 +80,10 @@ python2-django
 ipython2
 r-mkl
 r]
+# Maybe use pip for python packages
 
-
+# programming applications in the Arch User Repository
+DEVAPPSAUR=[]
 
 # loop through each application and install via pacman
 echo Installing core applications...
@@ -175,4 +184,27 @@ cp -v ./i3-config ~/.i3/config
 cp -v ./.i3status ~/.i3/i3status.conf
 mkdir ~/config-scripts
 cp -v ./monitor-config.sh ~/config-scripts
+cp -v ./makepkg.conf /etc/
+
+# Install AUR packages
+# AUR packages will live in /home/$USERNAME/packages
+mkdir ./$AURDIR
+cd $AURDIR
+echo Installing AUR packagess...
+for APP in $APPSAUR
+do
+  echo -----------------------------
+  echo Installing $APP
+  echo -----------------------------
+  # NEED TO FIGURE OUT HOW TO AUTOMATE AUR PACKAGE SEARCH AND THEN PULL VIA WGET OR CURL!!!
+  # ...
+  mkdir $APP
+  cd $APP
+  makepkg -c
+  cd ..
+  pacman -U $APP.tar.gz
+  # ???
+done
+read -p "Dev applications installed. Check the output to ensure each was successful then press any key to proceed..."
+
 # write a script that mounts home server as a network mount and execute on startup!!!
