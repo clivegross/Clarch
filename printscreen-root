@@ -1,0 +1,4 @@
+#!/bin/bash
+# Saves a screenshot of the root window (full screen) in the users home/$USER/Pictures/screenshots folder.
+#Depends on ImageMagick being installed.
+import -window root ${HOME}/Pictures/screenshots/screen-`date +%Y%m%d%H%M%S`.png

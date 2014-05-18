@@ -13,12 +13,12 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below. ISO 10646 = Unicode
-font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+# font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 # The font above is very space-efficient, that is, it looks good, sharp and
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-# font pango:DejaVu Sans Mono 10
+font pango:DejaVu Sans 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -26,8 +26,17 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# start chromium
-bindysm $mod+c exec chromium --enable-plugins
+# launch Chromium
+bindsym $mod+F1 exec chromium --enable-plugins &
+
+# launch LibreCAD
+bindsym $mod+F2 exec librecad
+
+# launch R Studio
+bindsym $mod+F3 exec rstudio-bin
+
+# save screenshot image with printsreen key
+bindsym Print exec printscreen-root
 
 # kill focused window
 bindsym $mod+Shift+q kill

@@ -17,6 +17,6 @@ FILES="~/.xinitrc
 for f in $FILES
 do
   echo "Updating $f"
-  cp $f ./
+  cp $f ./dotfiles
 done
 

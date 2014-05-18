@@ -25,6 +25,8 @@
 # music player: cmus
 # video player: vlc
 # pdf reader: evince
+# image viewer: fbi
+# image viewer (GUI): feh
 
 # declare variables
 NAME="Clive Gross"
@@ -43,9 +45,6 @@ i3status
 i3lock
 xf86-input-synaptics]
 
-# core applications in the Arch User Repository
-COREAPPSAUR=[]
-
 # Base applications
 # modify this list to include the desired applications
 APPS=[sudo
@@ -59,10 +58,9 @@ gedit
 rxvt-unicode
 cmus
 vlc
-evince]
-
-# base applications in the Arch User Repository
-APPSAUR=[librecad]
+evince
+fbiad
+feh]
 
 # Programming
 # Lookout, some of these apps are in the AUR repo, need to separate this array into packages from AUR and offical]
@@ -82,8 +80,9 @@ r-mkl
 r]
 # Maybe use pip for python packages
 
-# programming applications in the Arch User Repository
-DEVAPPSAUR=[]
+# Applications in the Arch User Repository
+AURAPPS=[librecad
+rstudio-desktop-bin]
 
 # loop through each application and install via pacman
 echo Installing core applications...
@@ -173,6 +172,9 @@ echo -----------------------------
 echo At this stage, you will need to install a flash player plugin manually. Go open-source, Adobe is for chumps!
 echo A previous install made use of Soundararajans post:
 echo http://dhakshinamoorthy.wordpress.com/2014/02/26/arch-linux-installing-chromium-flash-plugin-in-a-flash/ 
+
+# configure VLC
+# NEED TO DISABLE PULSEAUDIO AND USE ALSA INSTEAD, MAYBE IN A CONFIG FILE???
 
 # Need to update each of these config files
 echo Copying application config files into correct locations...
