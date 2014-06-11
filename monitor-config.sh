@@ -16,11 +16,17 @@ if (xrandr | grep "HDMI1 connected"); then
 	if (xrandr | grep "VGA1 connected"); then
 		echo turn VGA on
 		xrandr --output VGA1 --mode 1920x1080 --left-of HDMI1
-	fi
+	elif (xrandr | grep "VGA2 connected"); then
+                echo turn VGA on
+                xrandr --output VGA2 --mode 1920x1080 --left-of HDMI1
+        fi
 else
 	if (xrandr | grep "VGA1 connected"); then
 		xrandr --output LVDS1 --off
 		xrandr --output VGA1 --mode 1920x1080
+	elif (xrandr | grep "VGA2 connected"); then
+                xrandr --output LVDS1 --off
+                xrandr --output VGA2 --mode 1920x1080
 	else
 		xrandr --output LVDS1 --mode 1366x768
 	fi

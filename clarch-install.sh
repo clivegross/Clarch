@@ -11,6 +11,8 @@
 # Touchpad drivers: xf86-input-synaptics
 # Microphone drivers: 
 # i3: i3-wm, i3status, i3lock
+# fonts: ttf-monaco, ttf-mac-fonts	(AUR)
+# Infinality font rendering: infinality-bundle (add infinality-bundle repo to pacman.conf)
 #
 # List of basic utility/productivity applications to install
 # sudo
@@ -27,6 +29,15 @@
 # pdf reader: evince
 # image viewer: fbi
 # image viewer (GUI): feh
+# 3D modelling/rendering: blender
+# CAD: LibreCAD
+# Network storage: cifs-utils (samba), nfs-utils (NFS)
+# 
+# List of programming/developer tools to install:
+# ipython, ipython-notebook
+# python modules: pip, pandas, numpy, matplotlib, django, scipy, virtualenv, virtualenvwrapper
+# R
+# R Studio: rstudiodesktop-bin  	(AUR)
 
 # declare variables
 NAME="Clive Gross"
