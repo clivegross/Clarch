@@ -198,6 +198,7 @@ cp -v ./.i3status ~/.i3/i3status.conf
 mkdir ~/config-scripts
 cp -v ./monitor-config.sh ~/config-scripts
 cp -v ./makepkg.conf /etc/
+cp -v ./.fehbg ~/.fehbg
 
 # Install AUR packages
 # AUR packages will live in /home/$USERNAME/packages
