@@ -1,0 +1,46 @@
+
+Xvnc TigerVNC 1.7.1 - built Jan 23 2017 15:58:58
+Copyright (C) 1999-2016 TigerVNC Team and many others (see README.txt)
+See http://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 11804000, The X.Org Foundation
+
+
+Sat Feb  4 14:09:31 2017
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on local interface(s), port 5901
+ vncext:      created VNC server for screen 0
+ESTART: 0.00000 [0.00000] - Begin Startup
+ESTART: 0.00002 [0.00002] - Signal Trap
+ESTART: 0.00003 [0.00001] - Signal Trap Done
+ESTART: 0.00004 [0.00001] - Eina Init
+ESTART: 0.00024 [0.00020] - Eina Init Done
+ESTART: 0.00025 [0.00000] - Determine Prefix
+ESTART: 0.00037 [0.00013] - Determine Prefix Done
+ESTART: 0.00039 [0.00002] - Environment Variables
+ESTART: 0.00040 [0.00001] - Environment Variables Done
+ESTART: 0.00041 [0.00001] - Parse Arguments
+<<<< Enlightenment Error >>>>
+You are executing enlightenment directly. This is
+bad. Please do not execute the "enlightenment"
+binary. Use the "enlightenment_start" launcher. It
+will handle setting up environment variables, paths,
+and launching any other required services etc.
+before enlightenment itself begins running.
+
+E: Begin Shutdown Procedure!
+
+Sat Feb  4 14:09:49 2017
+ Connections: accepted: [::1]::50022
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VncAuth(2)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+
+Sat Feb  4 14:10:59 2017
+ Connections: closed: [::1]::50022 (Clean disconnection)
+ EncodeManager: Framebuffer updates: 1
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 1 rects, 786.432 kpixels
+ EncodeManager:            16 B (1:196609 ratio)
+ EncodeManager:   Total: 1 rects, 786.432 kpixels
+ EncodeManager:          16 B (1:196609 ratio)

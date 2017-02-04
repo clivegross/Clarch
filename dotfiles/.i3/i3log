@@ -1,0 +1,354 @@
+04/05/14 13:16:32 - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+04/05/14 13:16:32 - Parsing configfile /home/clive/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+04/05/14 13:16:32 - [libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+04/05/14 13:16:32 - Used number 1 for workspace with name 1
+04/05/14 13:16:32 - This is not an in-place restart, copying root window contents to a pixmap
+04/05/14 13:16:32 - Starting bar process: i3bar --bar_id=bar-0 --socket="/run/user/1000/i3/ipc-socket.1972"
+04/05/14 13:16:32 - executing: i3bar --bar_id=bar-0 --socket="/run/user/1000/i3/ipc-socket.1972"
+04/05/14 13:16:32 - IPC: looking for config for bar ID "bar-0"
+04/05/14 13:16:32 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:32 - WM_CLASS changed to i3bar (instance), i3bar (class)
+04/05/14 13:16:32 - WM_NAME changed to "i3bar for output LVDS1"
+04/05/14 13:16:32 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:32 - This window is of type dock
+04/05/14 13:16:32 - Checking window 0x00800007 (class i3bar)
+04/05/14 13:16:32 - dock status does not match
+04/05/14 13:16:32 - Checking window 0x00800007 (class i3bar)
+04/05/14 13:16:32 - dock status matches
+04/05/14 13:16:32 - Urgency flag changed to 0
+04/05/14 13:16:32 - ClientMessage for window 0x000000d8
+i3status: trying to auto-detect output_format setting
+i3status: auto-detected "i3bar"
+04/05/14 13:16:34 - startup id = i3/i3-sensible-terminal/1972-0-clivelappy_TIME4064024
+04/05/14 13:16:34 - executing: i3-sensible-terminal
+04/05/14 13:16:34 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:34 - WM_CLASS changed to urxvt (instance), URxvt (class)
+04/05/14 13:16:34 - WM_NAME changed to "urxvt"
+04/05/14 13:16:34 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:34 - _NET_WM_NAME changed to "urxvt"
+04/05/14 13:16:34 - WM_HINTS.input changed to "1"
+04/05/14 13:16:34 - Checking window 0x00a00008 (class URxvt)
+04/05/14 13:16:34 - dock status does not match
+04/05/14 13:16:34 - Checking window 0x00a00008 (class URxvt)
+04/05/14 13:16:34 - dock status does not match
+04/05/14 13:16:34 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:34 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:34 - _NET_WM_NAME changed to "clive@clivelappy:~"
+04/05/14 13:16:37 - startup id = i3/chromium/1972-1-clivelappy_TIME4066807
+04/05/14 13:16:37 - executing: chromium &
+04/05/14 13:16:37 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:37 - ClientMessage for window 0x00c0002d
+04/05/14 13:16:37 - WM_CLASS changed to chromium (instance), Chromium (class)
+04/05/14 13:16:37 - WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:37 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:37 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:37 - WM_WINDOW_ROLE changed to "browser"
+04/05/14 13:16:37 - WM_HINTS.input changed to "1"
+04/05/14 13:16:37 - Checking window 0x00c0002d (class Chromium)
+04/05/14 13:16:37 - dock status does not match
+04/05/14 13:16:37 - Checking window 0x00c0002d (class Chromium)
+04/05/14 13:16:37 - dock status does not match
+04/05/14 13:16:37 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:37 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+[1994:2037:0504/131637:ERROR:download.cc(109)] PostClientToServerMessage() failed during GetUpdates
+04/05/14 13:16:37 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:38 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:38 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:39 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:39 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:39 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:39 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - startup id = i3/chromium/1972-2-clivelappy_TIME4069979
+04/05/14 13:16:40 - executing: chromium &
+04/05/14 13:16:40 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:40 - ClientMessage for window 0x00c00118
+04/05/14 13:16:40 - WM_CLASS changed to chromium (instance), Chromium (class)
+04/05/14 13:16:40 - WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - WM_WINDOW_ROLE changed to "browser"
+04/05/14 13:16:40 - WM_HINTS.input changed to "1"
+04/05/14 13:16:40 - Checking window 0x00c00118 (class Chromium)
+04/05/14 13:16:40 - dock status does not match
+04/05/14 13:16:40 - Checking window 0x00c00118 (class Chromium)
+04/05/14 13:16:40 - dock status does not match
+04/05/14 13:16:40 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:40 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+Created new window in existing browser session.
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:40 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:41 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:41 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:41 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:41 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:41 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:42 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:42 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:42 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:43 - startup id = i3/chromium/1972-3-clivelappy_TIME4073179
+04/05/14 13:16:43 - executing: chromium &
+04/05/14 13:16:43 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:43 - ClientMessage for window 0x00c00209
+04/05/14 13:16:43 - WM_CLASS changed to chromium (instance), Chromium (class)
+04/05/14 13:16:43 - WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:43 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:43 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:43 - WM_WINDOW_ROLE changed to "browser"
+04/05/14 13:16:43 - WM_HINTS.input changed to "1"
+04/05/14 13:16:43 - Checking window 0x00c00209 (class Chromium)
+04/05/14 13:16:43 - dock status does not match
+04/05/14 13:16:43 - Checking window 0x00c00209 (class Chromium)
+04/05/14 13:16:43 - dock status does not match
+04/05/14 13:16:43 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:43 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+Created new window in existing browser session.
+04/05/14 13:16:44 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:44 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:44 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:44 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:44 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:45 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:45 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:45 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:52 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:52 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:52 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:52 - Sending WM_DELETE to the client
+04/05/14 13:16:52 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:52 - expose event for unknown window, ignoring
+04/05/14 13:16:52 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:52 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:52 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - Sending WM_DELETE to the client
+04/05/14 13:16:53 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - expose event for unknown window, ignoring
+04/05/14 13:16:53 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:53 - ClientMessage for window 0x00c003e9
+04/05/14 13:16:55 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:56 - Sending WM_DELETE to the client
+04/05/14 13:16:56 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:56 - expose event for unknown window, ignoring
+04/05/14 13:16:56 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:56 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:56 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:56 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:56 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:57 - ClientMessage for window 0x00c0043d
+04/05/14 13:16:57 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:57 - startup id = i3/i3-sensible-terminal/1972-4-clivelappy_TIME4087012
+04/05/14 13:16:57 - executing: i3-sensible-terminal
+04/05/14 13:16:57 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:57 - WM_CLASS changed to urxvt (instance), URxvt (class)
+04/05/14 13:16:57 - WM_NAME changed to "urxvt"
+04/05/14 13:16:57 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+04/05/14 13:16:57 - _NET_WM_NAME changed to "urxvt"
+04/05/14 13:16:57 - WM_HINTS.input changed to "1"
+04/05/14 13:16:57 - Checking window 0x00a00008 (class URxvt)
+04/05/14 13:16:57 - dock status does not match
+04/05/14 13:16:57 - Checking window 0x00a00008 (class URxvt)
+04/05/14 13:16:57 - dock status does not match
+04/05/14 13:16:57 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:57 - workspace visible? fs = 0x22ca4d0, ws = 0x22ca4d0
+04/05/14 13:16:57 - _NET_WM_NAME changed to "clive@clivelappy:~"
+04/05/14 13:16:57 - ClientMessage for window 0x00c0043d
+04/05/14 13:16:57 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:16:57 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:16:57 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:17:04 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:17:04 - _NET_WM_NAME changed to "New Tab - Chromium"
+04/05/14 13:17:34 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:17:37 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:17:40 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:17:43 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:17:44 - _NET_WM_NAME changed to "clive@clivelappy:~"
+04/05/14 13:17:57 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:18:19 - _NET_WM_NAME changed to "clive@clivelappy:~"
+04/05/14 13:18:25 - Sending WM_DELETE to the client
+04/05/14 13:18:25 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:18:25 - expose event for unknown window, ignoring
+04/05/14 13:18:25 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:18:25 - Not a managed window, ignoring UnmapNotify event
+04/05/14 13:18:25 - Not a managed window, ignoring UnmapNotify event
+[i3bar/src/xcb.c:838] ERROR: X11 connection was closed unexpectedly - maybe your X server terminated / crashed?
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+Exiting due to signal.
+      after 7 requests (7 known processed) with 0 events remaining.
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+[libi3] libi3/font.c Using X font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
+13/06/14 23:49:07 - i3 4.7.2 (2014-01-23, branch "tags/4.7.2") starting
+13/06/14 23:49:07 - Parsing configfile /home/clive/.i3/config
+deciding for version 4 due to this line: # i3 config file (v4)
+13/06/14 23:49:07 - [libi3] libi3/font.c Using Pango font Lucida Grande, size 11
+13/06/14 23:49:07 - [libi3] libi3/font.c X11 root window dictates 96.252632 DPI
+13/06/14 23:49:07 - Used number 1 for workspace with name 1
+13/06/14 23:49:07 - Used number 2 for workspace with name 2
+13/06/14 23:49:07 - This is not an in-place restart, copying root window contents to a pixmap
+13/06/14 23:49:07 - Starting bar process: i3bar --bar_id=bar-0 --socket="/run/user/1000/i3/ipc-socket.5555"
+13/06/14 23:49:07 - executing: i3bar --bar_id=bar-0 --socket="/run/user/1000/i3/ipc-socket.5555"
+13/06/14 23:49:07 - IPC: looking for config for bar ID "bar-0"
+13/06/14 23:49:07 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:49:07 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:49:07 - WM_CLASS changed to i3bar (instance), i3bar (class)
+13/06/14 23:49:07 - WM_NAME changed to "i3bar for output HDMI1"
+13/06/14 23:49:07 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+13/06/14 23:49:07 - This window is of type dock
+13/06/14 23:49:07 - Checking window 0x00800007 (class i3bar)
+13/06/14 23:49:07 - dock status does not match
+13/06/14 23:49:07 - Checking window 0x00800007 (class i3bar)
+13/06/14 23:49:07 - dock status matches
+13/06/14 23:49:07 - Urgency flag changed to 0
+13/06/14 23:49:07 - ClientMessage for window 0x000000d8
+i3status: trying to auto-detect output_format setting
+i3status: auto-detected "i3bar"
+13/06/14 23:49:07 - WM_CLASS changed to i3bar (instance), i3bar (class)
+13/06/14 23:49:07 - WM_NAME changed to "i3bar for output VGA1"
+13/06/14 23:49:07 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+13/06/14 23:49:07 - This window is of type dock
+13/06/14 23:49:07 - Checking window 0x0080000b (class i3bar)
+13/06/14 23:49:07 - dock status does not match
+13/06/14 23:49:07 - Checking window 0x0080000b (class i3bar)
+13/06/14 23:49:07 - dock status matches
+13/06/14 23:49:07 - Urgency flag changed to 0
+13/06/14 23:49:12 - startup id = i3/i3-sensible-terminal/5555-0-clivelappy_TIME23800284
+13/06/14 23:49:12 - executing: i3-sensible-terminal
+13/06/14 23:49:12 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:49:12 - WM_CLASS changed to urxvt (instance), URxvt (class)
+13/06/14 23:49:12 - WM_NAME changed to "urxvt"
+13/06/14 23:49:12 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+13/06/14 23:49:12 - _NET_WM_NAME changed to "urxvt"
+13/06/14 23:49:12 - WM_HINTS.input changed to "1"
+13/06/14 23:49:12 - Checking window 0x00a00006 (class URxvt)
+13/06/14 23:49:12 - dock status does not match
+13/06/14 23:49:12 - Checking window 0x00a00006 (class URxvt)
+13/06/14 23:49:12 - dock status does not match
+13/06/14 23:49:12 - Checking window 0x00a00006 (class URxvt)
+13/06/14 23:49:12 - dock status does not match
+13/06/14 23:49:12 - Checking window 0x00a00006 (class URxvt)
+13/06/14 23:49:12 - dock status does not match
+13/06/14 23:49:12 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:49:12 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:49:12 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:49:24 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:49:43 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:50:08 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:50:12 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:50:14 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:50:51 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:51:38 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:38 - focused now = 0x2154c20 / 2
+13/06/14 23:51:38 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:38 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:51:39 - focused now = 0x2155c00 / #aa0000
+13/06/14 23:51:39 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:39 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:51:39 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:39 - focused now = 0x2154c20 / 2
+13/06/14 23:51:39 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:39 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:51:46 - startup id = i3/i3-sensible-terminal/5555-1-clivelappy_TIME23953604
+13/06/14 23:51:46 - executing: i3-sensible-terminal
+13/06/14 23:51:46 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:46 - WM_CLASS changed to urxvt (instance), URxvt (class)
+13/06/14 23:51:46 - WM_NAME changed to "urxvt"
+13/06/14 23:51:46 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+13/06/14 23:51:46 - _NET_WM_NAME changed to "urxvt"
+13/06/14 23:51:46 - WM_HINTS.input changed to "1"
+13/06/14 23:51:46 - Checking window 0x00c00006 (class URxvt)
+13/06/14 23:51:46 - dock status does not match
+13/06/14 23:51:46 - Checking window 0x00c00006 (class URxvt)
+13/06/14 23:51:46 - dock status does not match
+13/06/14 23:51:46 - Checking window 0x00c00006 (class URxvt)
+13/06/14 23:51:46 - dock status does not match
+13/06/14 23:51:46 - Checking window 0x00c00006 (class URxvt)
+13/06/14 23:51:46 - dock status does not match
+13/06/14 23:51:46 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:46 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:46 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:51:48 - startup id = i3/chromium/5555-2-clivelappy_TIME23956444
+13/06/14 23:51:48 - executing: chromium --enable-plugins &
+13/06/14 23:51:48 - Not a managed window, ignoring UnmapNotify event
+[5593:5593:0613/235149:ERROR:component_loader.cc(138)] Failed to parse extension manifest.
+13/06/14 23:51:49 - WM_CLASS changed to Chromium (instance), Chromium (class)
+13/06/14 23:51:49 - WM_NAME changed to "New Tab - Chromium"
+13/06/14 23:51:49 - Using legacy window title. Note that in order to get Unicode window titles in i3, the application has to set _NET_WM_NAME (UTF-8)
+13/06/14 23:51:49 - _NET_WM_NAME changed to "New Tab - Chromium"
+13/06/14 23:51:49 - WM_WINDOW_ROLE changed to "browser"
+13/06/14 23:51:49 - Checking window 0x01000001 (class Chromium)
+13/06/14 23:51:49 - dock status does not match
+13/06/14 23:51:49 - Checking window 0x01000001 (class Chromium)
+13/06/14 23:51:49 - dock status does not match
+13/06/14 23:51:49 - Checking window 0x01000001 (class Chromium)
+13/06/14 23:51:49 - dock status does not match
+13/06/14 23:51:49 - Checking window 0x01000001 (class Chromium)
+13/06/14 23:51:49 - dock status does not match
+13/06/14 23:51:49 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:49 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:52 - Sending WM_DELETE to the client
+13/06/14 23:51:52 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:52 - expose event for unknown window, ignoring
+13/06/14 23:51:52 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:52 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:52 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:52 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:51:57 - _NET_WM_NAME changed to "feh arch - Google Search - Chromium"
+[5593:5689:0613/235157:ERROR:get_updates_processor.cc(214)] PostClientToServerMessage() failed during GetUpdates
+13/06/14 23:51:58 - ClientMessage for window 0x01000001
+13/06/14 23:51:58 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:51:59 - ClientMessage for window 0x01000001
+13/06/14 23:51:59 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:00 - _NET_WM_NAME changed to "https://wiki.archlinux.org/index.php/feh - Chromium"
+13/06/14 23:52:01 - _NET_WM_NAME changed to "Feh - ArchWiki - Chromium"
+13/06/14 23:52:07 - focused now = 0x2155c00 / #aa0000
+13/06/14 23:52:07 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:07 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:52:08 - focused now = 0x21668c0 / #0000aa
+13/06/14 23:52:08 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:08 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:52:09 - focused now = 0x2155c00 / #aa0000
+13/06/14 23:52:09 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:09 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:52:11 - focused now = 0x21668c0 / #0000aa
+13/06/14 23:52:11 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:11 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:52:39 - focused now = 0x2155c00 / #aa0000
+13/06/14 23:52:39 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:52:39 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:52:46 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:52:48 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:53:08 - _NET_WM_NAME changed to "clive@clivelappy:~"
+13/06/14 23:53:08 - focused now = 0x21668c0 / #0000aa
+13/06/14 23:53:08 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:53:08 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+13/06/14 23:53:13 - Sending WM_DELETE to the client
+13/06/14 23:53:13 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:53:13 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:53:13 - expose event for unknown window, ignoring
+13/06/14 23:53:13 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:53:13 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:53:13 - Not a managed window, ignoring UnmapNotify event
+13/06/14 23:53:14 - focused now = 0x2155c00 / #aa0000
+13/06/14 23:53:14 - workspace visible? fs = 0x2154c20, ws = 0x2154c20
+13/06/14 23:53:14 - workspace visible? fs = 0x21549e0, ws = 0x21549e0
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 7 requests (7 known processed) with 0 events remaining.
+[i3bar/src/xcb.c:838] ERROR: X11 connection was closed unexpectedly - maybe your X server terminated / crashed?
+Exiting due to signal.
+urxvt: X connection to ':0' broken, unable to recover, exiting.
+[libi3] libi3/font.c Using Pango font Lucida Grande, size 11
+[libi3] libi3/font.c X11 root window dictates 96.252632 DPI
