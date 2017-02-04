@@ -13,6 +13,11 @@ PS1='[\u@\h \W]\$ '
 export LANG=en_AU.UTF-8
 export TERM=rxvt-unicode
 export EDITOR=vim
+export BROWSER=chromium
+export NAS=${HOME}/clikki-SMB/clikki-SMB
+export ANDROID_HOME=${NAS}/software/android
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
 
 # Git tab completion
 source /usr/share/git/completion/git-completion.bash
